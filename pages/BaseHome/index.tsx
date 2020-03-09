@@ -5,7 +5,7 @@ import ThemeToggle from '../../components/Base/ThemeToggle';
 import { connect } from "react-redux";
 import { setThemeAction } from '../../store/reducers/config';
 import { Dispatch } from 'redux';
-import { AppTheme } from '../../config/DefaultConfig';
+import { AppTheme } from '../../config/theme/themes';
 
 interface Props extends RouteComponentProps {
   dispatch: Dispatch,
